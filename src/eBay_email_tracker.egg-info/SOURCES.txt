@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/compare_old_and_new_entry.py
+src/ebay_email_tracker.py
+src/email_module.py
+src/misc_module.py
+src/scrape_get_data.py
+src/user_prompt.py
+src/wait_module.py
+src/eBay_email_tracker.egg-info/PKG-INFO
+src/eBay_email_tracker.egg-info/SOURCES.txt
+src/eBay_email_tracker.egg-info/dependency_links.txt
+src/eBay_email_tracker.egg-info/requires.txt
+src/eBay_email_tracker.egg-info/top_level.txt

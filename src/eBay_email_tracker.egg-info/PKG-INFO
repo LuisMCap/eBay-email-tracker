@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: eBay-email-tracker
+Version: 0.0.3
+Summary: Scapes an entire search page of a particular item on eBay and sends regular updates to an email address
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# Introduction 
+
+This is a based learning project I built to learn more about scraping websites, manipulating data, and delivering it through a medium.
+
+The program tracks an entire eBay search page of a particular item and sends automated updates to an email with the respective link and price to each entry.
+
+The program asks you for:
+  - The item you want to track
+  - How many hours do you want between updates
+  - The range of price
+  - The email address you would like to receive the updates to
+
+## Installation
+
+The program only works locally. It will create a CSV file in the current directory the program is run from with all the data. 
+
+If you would like to test the program, you need to:
+
+```
+pip install eBay_email_tracker
+```
+```
+from ebay_email_tracker import tracker
+```
+```
+tracker()
+```
+
+
+
+Set environmental variables in your Windows Operating System:
+
+|                |Variable                        |Value                       |
+|----------------|-------------------------------|-----------------------------|
+||EBAY_TRACKER_EMAIL          |An email you want to send the information from        |
+| |EBAY_TRACKER_PASSWORD            |Password to that email          |
+
+The program depends on these packages:
+  - Numpy
+  - BeautifulSoup
+  - lxml
+  - requests
+  - Pandas
+ 
+ The program is not intended for personal or commercial use.
+ 
+ ## Improvements:
+
+- I realized that the program will often send entries that are no longer available. While the program sleeps, I could check each entry that was not seen in the most recent search, and see if it has its price listed. If not, delete it from the data.
+- Currently, the only way to close the program would be to interrupt it and close it. I could implement a way for the user to close the program if he or she desires to.
+- While the program is running, there is nothing telling the user that it is working apart from the first email sent. The program will stay the same for the whole duration. I could print statements to the user, so he knows the program is working as intended.
+- The program only works locally. I could implement a database that tracks the item of different users, and sends that information without storing each entry locally, but that would be a completely different project.
+
+

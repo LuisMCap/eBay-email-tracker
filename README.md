@@ -1,6 +1,6 @@
 # Introduction 
 
-This is a project I built with the sole intent to learn more about scraping websites, manipulating data, and delivering it through a medium. It is not intended for personal or commercial use.
+This is a project I built with the sole intent to learn more about scraping websites, manipulating data, and delivering it through a medium. It is not intended for commercial use.
 
 The program tracks an entire eBay search page of a particular item and sends automated updates to an email with the respective link and price to each entry.
 

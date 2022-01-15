@@ -10,9 +10,7 @@ The program asks you for:
   - The range of price
   - The email address you would like to receive the updates to
 
-![This is what you input to the program](https://prnt.sc/26dvn1w)
-
-![This is how the email you receive looks like](https://prnt.sc/26dvsly)
+![This is what you input to the program](C:\Users\Fenom\OneDrive\Escritorio\output.png)
 
 ## Installation
 

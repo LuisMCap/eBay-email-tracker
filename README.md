@@ -10,8 +10,6 @@ The program asks you for:
   - The range of price
   - The email address you would like to receive the updates to
 
-![This is what you input to the program](C:\Users\Fenom\OneDrive\Escritorio\output.png)
-
 ## Installation
 
 The program only works locally. It will create a CSV file in the current directory the program is run from with all the data. 
